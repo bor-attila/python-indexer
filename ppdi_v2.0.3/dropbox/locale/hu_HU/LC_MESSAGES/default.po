@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2014-03-02 19:50+0100\n"
-"PO-Revision-Date: 2014-03-02 19:50+0100\n"
+"POT-Creation-Date: 2014-03-03 00:18+0100\n"
+"PO-Revision-Date: 2014-03-03 00:22+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,13 +16,21 @@ msgstr ""
 
 #: ../../../ppdi.py:30
 msgid ""
+"Authentification failed! You need to disable quiet mode, to generate a new "
+"access token."
+msgstr ""
+"Azonosítás sikertelen! A csendes módot ki kell kapcsolni ahozz, hogy új "
+"hozzáférési kulcsot tudj generálni!"
+
+#: ../../../ppdi.py:35
+msgid ""
 "In the openend browser window please click on the 'Allow button', and then "
 "press 'Enter'!"
 msgstr ""
 "A megnyitott webböngésző ablakban kattintson az 'Allow' gombra, majd nyomja "
 "meg az 'Enter' billentyűt!"
 
-#: ../../../ppdi.py:32
+#: ../../../ppdi.py:37
 msgid ""
 "Please open the given adress in your browser, then click on the 'Allow' "
 "button, and press 'Enter'!"
@@ -31,37 +39,54 @@ msgstr ""
 "majd nyomja meg az 'Enter' billentyűt!"
 
 #: ../../../ppdi.py:44
+msgid "Request token has not been properly authorized by a user."
+msgstr "A felhasználó nem engedélyezte a hozzáférést a Dropboxhoz."
+
+#: ../../../ppdi.py:47 ../../../ppdi.py:63 ../../../ppdi.py:165
+msgid "Unhandled error"
+msgstr "Váratlan hiba"
+
+#: ../../../ppdi.py:60
+msgid "Authentification failed : {0}"
+msgstr "Azonositás sikertelen : {0}"
+
+#: ../../../ppdi.py:66
 msgid "Name"
 msgstr "Név"
 
-#: ../../../ppdi.py:45
+#: ../../../ppdi.py:67
 msgid "Size"
 msgstr "Méret"
 
-#: ../../../ppdi.py:46
+#: ../../../ppdi.py:68
 msgid "Last modified"
 msgstr "Utóljára módositva"
 
-#: ../../../ppdi.py:47
-msgid "Contact : "
-msgstr "Kapcsolat : "
-
-#: ../../../ppdi.py:48
-#, fuzzy
+#: ../../../ppdi.py:69
 msgid "{0}'s dropbox"
 msgstr " könyvtára"
 
-#: ../../../ppdi.py:49
+#: ../../../ppdi.py:70
 msgid "Indexing : "
 msgstr "Indexelés : "
 
-#: ../../../ppdi.py:50
+#: ../../../ppdi.py:71
 msgid "Done"
 msgstr "Kész"
 
-#: ../../../ppdi.py:51
+#: ../../../ppdi.py:72
 msgid "Your 'Public' folder was sucessfully updated."
 msgstr "A Publikus könyvtár siekresen frissitve."
+
+#: ../../../ppdi.py:161
+msgid ""
+"Error in encoding! Using 'ignore' mode instead of 'xmlcharrefreplace'. "
+"Original string is : {0} .To fix this problem use only ASCII letters in file "
+"and folder names"
+msgstr "Hibás karakterkódolás!"
+
+#~ msgid "Contact : "
+#~ msgstr "Kapcsolat : "
 
 #~ msgid ""
 #~ "Please visit this website and press the 'Allow' button, then hit 'Enter' "

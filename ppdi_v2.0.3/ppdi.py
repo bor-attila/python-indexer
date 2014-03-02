@@ -19,21 +19,21 @@ def main(argv):
         '--all',
         default=True,
         action="store_false",
-        help='Minden mappa indexelése.Minden mappa meg fog jelenni a generált HTML oldalon.'
+        help='Indexing of folders.Each folder will appear on the generated HTML page.'
     )
 
     parser.add_argument(
         '-d',
         '--disabler',
         default=".",
-        help='Megadja az elrejteni kivánt mappák prefixét.'
+        help='It sets the prefix of the folders which are to be excluded from indexing.'
     )
 
     parser.add_argument(
         '-s',
         '--styledir',
         default="style",
-        help='A Dropbox tárhelyen lévő stilus mappa amely tartalmazza a CSS stiluslapot és a háttérképet.'
+        help='The style directory in the Dropbox which contains the CSS stylesheet.'
     )
 
     parser.add_argument(
@@ -41,7 +41,7 @@ def main(argv):
         '--openbrowser',
         default=False,
         action="store_true",
-        help='A generálás után a gyökérmappában lévő index.html-t automatikusan megnyitja böngészőben.'
+        help='It automatically opens the index.html from the root directory'
     )
 
     parser.add_argument(
