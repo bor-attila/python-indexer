@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2014-03-02 19:50+0100\n"
+"PO-Revision-Date: 2014-03-02 19:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../ppdi.py:30
+msgid ""
+"In the openend browser window please click on the 'Allow button', and then "
+"press 'Enter'!"
+msgstr ""
+"A megnyitott webböngésző ablakban kattintson az 'Allow' gombra, majd nyomja "
+"meg az 'Enter' billentyűt!"
+
+#: ../../../ppdi.py:32
+msgid ""
+"Please open the given adress in your browser, then click on the 'Allow' "
+"button, and press 'Enter'!"
+msgstr ""
+"Az alábbi címet nyissa meg a böngészőjében, kattintson az 'Allow' gombra, "
+"majd nyomja meg az 'Enter' billentyűt!"
+
+#: ../../../ppdi.py:44
+msgid "Name"
+msgstr "Név"
+
+#: ../../../ppdi.py:45
+msgid "Size"
+msgstr "Méret"
+
+#: ../../../ppdi.py:46
+msgid "Last modified"
+msgstr "Utóljára módositva"
+
+#: ../../../ppdi.py:47
+msgid "Contact : "
+msgstr "Kapcsolat : "
+
+#: ../../../ppdi.py:48
+#, fuzzy
+msgid "{0}'s dropbox"
+msgstr " könyvtára"
+
+#: ../../../ppdi.py:49
+msgid "Indexing : "
+msgstr "Indexelés : "
+
+#: ../../../ppdi.py:50
+msgid "Done"
+msgstr "Kész"
+
+#: ../../../ppdi.py:51
+msgid "Your 'Public' folder was sucessfully updated."
+msgstr "A Publikus könyvtár siekresen frissitve."
+
+#~ msgid ""
+#~ "Please visit this website and press the 'Allow' button, then hit 'Enter' "
+#~ "here."
+#~ msgstr ""
+#~ "Kérem látogassa meg a következő weboldalt, nyomja meg az 'Allow' gombot, "
+#~ "majd nyomjon egy 'Enter'-t."
