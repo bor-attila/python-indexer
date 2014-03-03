@@ -15,6 +15,7 @@ Installation:
 	mkdir .bin
 	cd ./bin
 2. Download the PDI
+<<<<<<< HEAD
 	wget https://github.com/bor-attila/python-indexer/archive/master.zip
 3. Unzip
 	unzip master.zip
@@ -24,3 +25,10 @@ Installation:
 FAQ:
 
 Run python pdi -h for more help
+=======
+3. Unzip
+
+FAQ:
+
+Run python ppdy.py -h for more help
+>>>>>>> 9755316b9f250de406e5336d31f439420c5d7348
