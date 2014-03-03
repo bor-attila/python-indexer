@@ -13,21 +13,32 @@ First steps:
 Installation:
 ------------
 
--Create a ./bin directory in your home
-	```sh
+* Create a ./bin directory in your home
+
+
+	```
 	cd ~
 	mkdir .bin
 	cd ./bin
 	```
--Download the PDI
+	
+	
+* Download the PDI
+
+
 	```sh
 	wget https://github.com/bor-attila/python-indexer/archive/master.zip
 	```
--Unzip
+	
+* Unzip
+
+
 	```sh
 	unzip master.zip
 	```
--Create a (soft) link in ./bin
+	
+* Create a (soft) link in ./bin
+
 	```sh
 	ln -s python-indexer-master/ppdi_vX.X.X/ppdi.py pdi
 	```
