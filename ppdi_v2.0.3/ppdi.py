@@ -62,7 +62,6 @@ def main(argv):
         "openafterindex"   : args.openbrowser,
         "quiet"            : args.quiet
     }
-
     ppdi = p.Indexer(settings)
     ppdi.start_build()
 
