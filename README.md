@@ -52,7 +52,7 @@ optional arguments:
 > Indexing of folders.Each folder will appear on the generated HTML page. (Ignoring the disabler.)
 
   <b>```-d DISABLER, --disabler DISABLER```</b> 
-> It sets the prefix of the folder which are to be excluded from indexing. For example, if you do not want to share a directory from the Public dir, just rename the directory in a way that the first character should be the disabler. The dafult disabler is "<b>.</b>" . <b>eg: <i>.mydir</i></b> will be excluded from indexing. 
+> It sets the prefix of the folder which is to be excluded from indexing. For example, if you do not want to share a directory from the Public dir, just rename the directory in a way that the first character should be the disabler. The dafult disabler is "<b>.</b>" . <b>eg: <i>.mydir</i></b> will be excluded from indexing. 
   
   <b>```-s STYLEDIR, --styledir STYLEDIR```</b> 
 > The style directory in the Dropbox which contains the CSS stylesheet. You can put here images,js,css files as well. The style directory is automatically excluded from indexing.
