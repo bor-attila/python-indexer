@@ -5,13 +5,13 @@ First steps:
 ------------
 
 1. Register a [dropbox][1] account
-2. Create a folder with name : <br> <b>Public</b>
-3. Uploade the style folder to the Public folder. <br> <b>/style/style.css</b>
+2. Create a folder with the following name : <br> <b>Public</b>
+3. Upload the style folder to the Public folder. <br> <b>/style/style.css</b>
 
 Installation:
 ------------
 
-* Create a ./bin directory in your home
+* Create a ./bin directory in your home directory
 	```
 	cd ~
 	mkdir .bin
@@ -31,10 +31,10 @@ Installation:
 
 First index
 -----------
-The PDI before the first index, will open your webbrowser and you will need to give perssion to PDI to index your dropbox.
+The PDI comes before the first index, it will open your webbrowser, and you will need to give permission to the PDI to index your dropbox.
 If this permission will be denied the PDI <b>won't</b> index your dropbox.
 
-After the first success index, the PDI will not ask permission again, so you can use with <i>crontab</i>. (Don't forget to use -q for quiet mode, or use > /dev/null)
+After the first successful indexing, the PDI will not ask permission again, so you can use it with <i>crontab</i>. (Don't forget to use -q for quiet mode, or use > /dev/null)
 
 Arguments
 ---------
@@ -52,10 +52,10 @@ optional arguments:
 > Indexing of folders.Each folder will appear on the generated HTML page. (Ignoring the disabler.)
 
   <b>```-d DISABLER, --disabler DISABLER```</b> 
-> It sets the prefix of the folders which are to be excluded from indexing. For example if you do not want to share a directory witch exists in Public dir, just rename the directory in that way the first charachter must be the disabler. The dafult disabler is "<b>.</b>" . <b>eg: <i>.mydir</i></b> will not will be excluded from indexing.
+> It sets the prefix of the folder which are to be excluded from indexing. For example, if you do not want to share a directory from the Public dir, just rename the directory in a way that the first character should be the disabler. The dafult disabler is "<b>.</b>" . <b>eg: <i>.mydir</i></b> will be excluded from indexing. 
   
   <b>```-s STYLEDIR, --styledir STYLEDIR```</b> 
-> The style directory in the Dropbox which contains the CSS stylesheet.Also you can put here images,js,css files. The style directory is automatic excluded from indexing
+> The style directory in the Dropbox which contains the CSS stylesheet. You can put here images,js,css files as well. The style directory is automatically excluded from indexing.
   
   <b>```-o, --openbrowser```</b>
 > It automatically opens the index.html from the root directory
